@@ -222,7 +222,7 @@ or serial mode using "make serial" or "make parallel".
     [d] clean: Cleans the output files in the mosaics/ folder
 
 [3.2] For centos:
-
+---------------
 The program is compiled to be consistent with the centos operating system used in
 the mako sharcnet cluster. the make file uses a run script to automatically load
 the required modules. So, a user can test the program in parallel
