@@ -253,7 +253,11 @@ Conference on Distributed Smart Cameras (ICDSC), Hong Kong, China, Oct. 2012.
 [5] Contact
 -----------------------------------------------------------------------------
 Mohamed Helala,
-Computer Science Dept,             +-----------------------------------------+
-UOIT,                              | Website:                                |
-Oshawa, Ontario, Canada            | http://vclab.science.uoit.ca/~helala/.  |
-mohamed.helala@uoit.ca             +-----------------------------------------+
+
+Computer Science Deptartment, UOIT,
+
+Oshawa, Ontario, Canada
+
+mohamed.helala@uoit.ca             
+
+http://vclab.science.uoit.ca/~helala/.
