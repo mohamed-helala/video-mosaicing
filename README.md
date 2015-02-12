@@ -107,8 +107,7 @@ This module implements the plane sweep stereo functions:
 
 [1.5] serial_controller.py
 ---------------
-    The starting module for the serial program. It include only one starting
-    function:
+The starting module for the serial program. It include only one starting function:
         
         [a] serial_controller(): This function loads frames and their associated
             cameras from disk and cluster them into a set of overlapped clusters.
@@ -118,8 +117,7 @@ This module implements the plane sweep stereo functions:
 
 [1.6] depthmap.py
 ---------------
-    An auxiliary module for the serial program. It include only one
-    function:
+An auxiliary module for the serial program. It include only one function:
         
         [a] gen_mosaic(frames, cams, depth): This function receives the
             cameras, frames, depths of a certain cluster and calculates
@@ -130,8 +128,7 @@ This module implements the plane sweep stereo functions:
 
 [1.7] mpi_controller.py
 ---------------
-    The starting module for the parallel program. It include only one starting
-    function:
+The starting module for the parallel program. It include only one starting function:
         
         [a] mosaic_controller(): This function defines the global master
             process and splits the world communicator into a set of virtual
@@ -151,8 +148,7 @@ This module implements the plane sweep stereo functions:
 
 [1.8] mpi_depthmap.py
 ---------------
-    An auxiliary module for the parallel program. It include only one
-    function:
+An auxiliary module for the parallel program. It include only one function:
         
         [a] gen_mosaic(comm, in_frames, in_cams, in_depths): This function
             receives a virtual communicator, a set of input frames and cameras
