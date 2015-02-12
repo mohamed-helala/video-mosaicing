@@ -210,16 +210,16 @@ The program assumes that opencv 2.4.2 is installed. If not then you should run,
 "make install-opencv" first before running the code. The code can run in parallel
 or serial mode using "make serial" or "make parallel".
 
-Rules:
+[3.1.1] Rules:
 ---------------
 
-[a] parallel: will test the MPI implementation
-
-[b] serial: will test the serial implementation
-
-[c] install-opencv: will install the opencv libraries
-
-[d] clean: Cleans the output files in the mosaics/ folder
+    [a] parallel: will test the MPI implementation
+    
+    [b] serial: will test the serial implementation
+    
+    [c] install-opencv: will install the opencv libraries
+    
+    [d] clean: Cleans the output files in the mosaics/ folder
 
 [3.2] For centos:
 
@@ -233,14 +233,14 @@ of the centos/ folder to a sharcnet folder. Then, run the code using the makefil
 It is preferable to run the program in mako cluster as you will not need
 to install the Opencv libraries locally.
 
-Rules:
+[3.2.1] Rules:
 ---------------
 
-[a] parallel: will test the MPI implementation
-
-[b] serial: will test the serial implementation
-
-[c] clean: Cleans the output files in the mosaics/ folder
+    [a] parallel: will test the MPI implementation
+    
+    [b] serial: will test the serial implementation
+    
+    [c] clean: Cleans the output files in the mosaics/ folder
 
 
 [4] References
